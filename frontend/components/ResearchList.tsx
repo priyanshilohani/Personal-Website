@@ -16,7 +16,7 @@ const ResearchList: React.FC = () => {
   useEffect(() => {
     const fetchPapers = async () => {
       try {
-        const res = await fetch("http://localhost:5000/api/research");
+        const res = await fetch("https://tsx-unstop-python-mrj1.onrender.com/api/research");
         const data = await res.json();
         setPapers(data);
       } catch (err) {
