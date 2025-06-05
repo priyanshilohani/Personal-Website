@@ -14,7 +14,7 @@ export default function About() {
           className={styles.profileImage}
         />
         <div className={styles.bio}>
-          <h1>Hi, I'm Priyanshi Lohani 👋</h1>
+          <h1>Hi, I am Priyanshi Lohani 👋</h1>
           <p>
             I am a passionate student specializing in <b>Artificial Intelligence</b>, <b>Web Development</b>, <b>Machine learning</b>, and <b>Deep Learning</b>.
             I love solving complex problems and building innovative solutions that make a difference.
@@ -67,7 +67,7 @@ export default function About() {
 
       {/* Contact Links */}
       <div className={styles.contactSection}>
-        <h2>Let's Connect!</h2>
+        <h2>Let&apos;s Connect!</h2>
         <div className={styles.contactLinks}>
           <a
             href="https://github.com/priyanshilohani"
