@@ -23,7 +23,7 @@ export default function About() {
             Currently pursuing a <b>B.Tech in Computer Science and Artificial Intelligence</b> at Banasthali Vidyapith, I have hands-on experience with cutting-edge technologies
             and frameworks like <b>Next.js</b>, <b>Python</b>, <b>TensorFlow</b>, <b>LangChain</b>, <b>Flask</b>.
           </p>
-          <a href="/resume.pdf" download className={styles.resumeBtn}>
+          <a href="https://tsx-unstop-python-mrj1.onrender.com/api/resume" download className={styles.resumeBtn}>
             📄 Download Resume
           </a>
         </div>
