@@ -1,0 +1,87 @@
+[
+  {
+    "domain": "Natural Language Processing",
+    "items": [
+      {
+        "title": "Document Chatbot",
+        "techStack": "Python",
+        "description": [
+          "AI-powered chatbot that processes PDF files and answers queries based on document content.",
+          "Uses LangChain and PyPDF2 to extract text, convert it into vectors, and store in FAISS.",
+          "Employs Hugging Face models and Pinecone for query understanding and content-based responses."
+        ]
+      },
+      {
+        "title": "AI Text Editor",
+        "techStack": "Python",
+        "description": [
+          "Intelligent text editor that summarizes documents and provides context-aware suggestions.",
+          "Utilizes Sentence Transformers (MiniLM) for semantic similarity and BART for text summarization.",
+          "Uses Cosine Similarity to identify and summarize relevant document chunks."
+        ]
+      },
+      {
+        "title": "DocAssist",
+        "techStack": "Next.js, Flask, Python, MongoDB",
+        "description": [
+          "Developed a website using Next.js with user authentication using JWT tokens and MongoDB.",
+          "Integrated various features:",
+          " Document Chatbot: Allows users to interact with documents, powered by LangChain and PyPDF2.",
+          " AI Text Editor: Summarizes documents using MiniLM and BART.",
+          " OCR: Extracts text from images using Pytesseract and Pillow.",
+          " Paraphraser: Rewrites text using Transformers and LanguageTool Python.",
+          " Research Paper Template: Converts randomly formatted text into structured IEEE research paper using NLTK and LaTeX.",
+          "Integrated Flask for Python-based functionality, error handling, and cross-origin support via Flask-CORS."
+        ],
+        "link": "https://github.com/priyanshilohani/DocAssist"
+      }
+    ]
+  },
+  {
+    "domain": "Web Development",
+    "items": [
+      {
+        "title": "Portfolio Website",
+        "techStack": "Next.js, TypeScript",
+        "description": [
+          "Built a modern and responsive portfolio website using Next.js and TypeScript.",
+          "Implemented interactive project filtering and dynamic content loading.",
+          "Optimized for performance and SEO with metadata and responsive layouts."
+        ],
+        "link" : "https://github.com/priyanshilohani/TSX-Unstop-Python"
+      },
+      {
+        "title": "DocAssist",
+        "techStack": "Next.js, Flask, Python, MongoDB",
+        "description": [
+          "Developed a website using Next.js with user authentication using MongoDB.",
+          "Integrated various features:",
+          " Document Chatbot: Allows users to interact with documents, powered by LangChain and PyPDF2.",
+          " AI Text Editor: Summarizes documents using MiniLM and BART.",
+          " OCR: Extracts text from images using Pytesseract and Pillow.",
+          " Paraphraser: Rewrites text using Transformers and LanguageTool Python.",
+          " Research Paper Template: Converts randomly formatted text into structured IEEE research paper using NLTK and LaTeX.",
+          "Integrated Flask for Python-based functionality, error handling, and cross-origin support via Flask-CORS."
+        ],
+        "link": "https://github.com/priyanshilohani/DocAssist"
+      }
+    ]
+  },
+  {
+    "domain": "Image Processing and Computer Vision",
+    "items": [
+      {
+        "title": "Fire and Smoke Detection System",
+        "techStack": "Python, OpenCV, TensorFlow, MobileNetV2, Matplotlib",
+        "description": [
+          "Developed a fire and smoke detection system using image processing, computer vision, and deep learning.",
+          "Implemented fire segmentation using HSV and YCbCr color spaces.",
+          "Motion detection through frame differencing, optical flow, and background subtraction.",
+          "Estimated the fire-affected area using contour detection and pixel-based measurements.",
+          "Used edge detection, Local Binary Patterns, and a fine-tuned MobileNetV2 model for smoke detection."
+        ],
+        "link" : "https://github.com/priyanshilohani/ForestFire"
+      }
+    ]
+  }
+]
