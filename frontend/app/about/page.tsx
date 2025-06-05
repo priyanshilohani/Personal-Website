@@ -67,7 +67,7 @@ export default function About() {
 
       {/* Contact Links */}
       <div className={styles.contactSection}>
-        <h2>Let&apos;s Connect!</h2>
+        <h2>Let us Connect!</h2>
         <div className={styles.contactLinks}>
           <a
             href="https://github.com/priyanshilohani"
