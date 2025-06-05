@@ -1,0 +1,153 @@
+/* About.module.css */
+
+/* Container */
+.container {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: auto;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  /* Hero Section */
+  .hero {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    text-align: left;
+  }
+  
+  .profileImage {
+    border-radius: 50%;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+  }
+  
+  .profileImage:hover {
+    transform: scale(1.05);
+  }
+  
+  .bio h1 {
+    font-size: 3rem;
+    margin: 0 0 20px;
+    color: #2c3e50;
+  }
+  
+  .bio p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #7f8c8d;
+    margin-bottom: 20px;
+  }
+  
+  .resumeBtn {
+    padding: 12px 24px;
+    font-size: 1.2rem;
+    color: white;
+    background: #3498db;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background 0.3s;
+  }
+  
+  .resumeBtn:hover {
+    background: #2c3e50;
+  }
+  
+  /* Section Title */
+  .sectionTitle {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin: 60px 0 30px;
+    text-align: center;
+  }
+  
+  /* Skills Grid */
+  .skillsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+  }
+  
+  .skillCard {
+    background: #ecf0f1;
+    padding: 20px;
+    text-align: center;
+    border-radius: 12px;
+    font-weight: bold;
+    color: #34495e;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .skillCard:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* About Details */
+  .aboutDetails {
+    line-height: 1.8;
+    font-size: 1.2rem;
+    color: #7f8c8d;
+    padding: 0 20px;
+  }
+  
+  /* Contact Section */
+  .contactSection {
+    text-align: center;
+    margin-top: 60px;
+  }
+  
+  .contactSection h2 {
+    font-size: 2rem;
+    color: #2c3e50;
+  }
+  
+  .contactLinks {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .contactLinks a {
+    padding: 12px 24px;
+    font-size: 1.2rem;
+    color: white;
+    background: #34495e;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background 0.3s, transform 0.3s;
+  }
+  
+  .contactLinks a:hover {
+    background: #3498db;
+    transform: translateY(-5px);
+  }
+  
+  /* Fade-In Animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .hero {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .bio h1 {
+      font-size: 2.5rem;
+    }
+  
+    .skillsGrid {
+      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    }
+  }
+  
