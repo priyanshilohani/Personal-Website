@@ -22,7 +22,7 @@ This is a full-stack personal portfolio website for **Priyanshi Lohani**, built 
 
 ### Backend
 - **Flask** (Python)
-- RESTful APIs for serving project & research paper data
+- RESTful APIs for serving projects, programs, research paper data and Resume
 - Hosted on **Render**
 
 ---
